@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>boop</title>
+  </head>
+ <style> 
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* navigation menu links */
+.topnav a {
+  color: blue;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* hamburger menu */
+.topnav a.icon {
+  background: rgb(2, 2, 58);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* background color on mouse-over */
+.topnav a:hover {
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+
+/* active link (or home/logo) */
+.active {
+  background-color: pink;
+  color: black;
+}
+</style>
+
+  <body>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">loop</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#shoop">shoop</a>
+    <a href="#whoop">whoop</a>
+    <a href="#poop">poop</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+    <h1>Boot Gang</h1>
+
+   
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat voluptatum ut tenetur nesciunt dignissimos explicabo vitae fugit! Numquam voluptas impedit praesentium ut quia consectetur laborum vel dolore? Aut, vero dolores!
+      </div>
+      <div class="col-8">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quibusdam qui adipisci fugiat excepturi inventore vel ab? Praesentium temporibus sunt nam cum maxime fugiat soluta quas tenetur, repudiandae architecto sequi.
+      </div>
+    </div>
+  </div>
+
+  <picture> 
+      <source srcset="mummypup.png"
+      media="(min-width: 800px)">
+      <img src="mummypup.png" alt="mummy pup">
+  </picture>
+</body>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</html>
